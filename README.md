@@ -3,9 +3,9 @@
 Both bots work on raspberry pi and on desktop. <br />
 To run on descktop you need to download chromedriver for your current Chrome version.<br />
 To run on raspberry pi uncomment line : <br />
-options.add_argument('--headless')<br />
+# options.add_argument('--headless')<br />
 and bellow <br />
-self.driver = webdriver.Chrome(executable_path="/usr/bin/chromedriver", chrome_options=options) (and insert the location of chromedriver on raspberry pi)<br />
+# self.driver = webdriver.Chrome(executable_path="/usr/bin/chromedriver", chrome_options=options) (and insert the location of chromedriver on raspberry pi)<br />
 <br />
 1.Direct message bot:<br />
 a.First update the db following the steps bellow<br />
